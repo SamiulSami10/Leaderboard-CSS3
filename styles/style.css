@@ -16,6 +16,7 @@ body{
 
 
 
+
 main{
     display: flex;
     flex-direction: column;
@@ -146,7 +147,7 @@ hr{
 .courses{
 display: grid;
 grid-template-columns: repeat(3,1fr);
-grid-column-gap: 44px;
+grid-column-gap: 90px;
 
 }
 
@@ -163,6 +164,20 @@ grid-column-gap: 44px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+
+
+.course-duration{
+    margin-right: 5px;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 95px;
+    height: 30px;
+    background-color: #FFE4E8;
+    border-radius: 25px;
+    color: #FF4A60;
 }
 
 
@@ -185,6 +200,10 @@ grid-column-gap: 44px;
 }
 
 
+
+.footer-gap{
+    margin-bottom: 30px;
+}
 
 /* Media Queries */
 
